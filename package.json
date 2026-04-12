@@ -1,0 +1,14 @@
+{
+  "name": "bug-report-api",
+  "version": "1.0.0",
+  "description": "Simple bug report API built with Node.js and Express.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "uuid": "^11.0.5"
+  }
+}
