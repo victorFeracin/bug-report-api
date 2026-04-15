@@ -1,5 +1,7 @@
 const express = require("express");
 const bugRoutes = require("./routes/bugRoutes");
+const buildOpenApiSpec = require("./docs/openapi");
+const renderSwaggerUiHtml = require("./docs/swaggerUi");
 
 const app = express();
 
