@@ -4,6 +4,6 @@ const bugRoutes = require("./routes/bugRoutes");
 const app = express();
 
 app.use(express.json());
-app.use(bugRoutes);
+app.use("/api", bugRoutes);
 
 module.exports = app;
