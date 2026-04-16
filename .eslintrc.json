@@ -1,0 +1,23 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "no-console": "off",
+    "prefer-const": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["test/**/*.test.js"],
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    }
+  ]
+}
